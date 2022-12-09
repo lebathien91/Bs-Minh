@@ -21,7 +21,7 @@ const Nav = ({ homePage }: { homePage?: Boolean }) => {
           ? navbars.map((nav) => (
               <li className="ml-8 group relative" key={nav.id}>
                 <Scroll
-                  className="py-3 hover:text-primary relative flex justify-center cursor-pointer after:content-[''] after:transition-all after:duration-200 after:ease-linear after:absolute after:bottom-1 after:h-[2px] after:hover:w-full after:bg-primary"
+                  className="py-3 hover:text-primary relative flex justify-center cursor-pointer after:content-[''] after:transition-all after:duration-200 after:ease-linear after:absolute after:bottom-1 after:h-[2px] after:hover:w-full after:w-0 after:bg-primary"
                   activeClass="after:w-full text-primary"
                   to={nav.slug}
                   offset={-100}
@@ -51,7 +51,7 @@ const Nav = ({ homePage }: { homePage?: Boolean }) => {
               <li className="ml-8 group relative" key={nav.id}>
                 <Link
                   href={`/#${nav.slug}`}
-                  className="py-3 hover:text-primary relative flex justify-center cursor-pointer after:content-[''] after:transition-all after:duration-200 after:ease-linear after:absolute after:bottom-1 after:h-[2px] after:hover:w-full after:bg-primary"
+                  className="py-3 hover:text-primary relative flex justify-center cursor-pointer after:content-[''] after:transition-all after:duration-200 after:ease-linear after:absolute after:bottom-1 after:h-[2px] after:w-0 after:hover:w-full after:bg-primary"
                 >
                   {nav.name}
                 </Link>
