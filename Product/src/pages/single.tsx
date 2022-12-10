@@ -149,27 +149,27 @@ export default function SinglePage() {
               <div className="flex">
                 <h4 className="mr-4 font-semibold text-black">Share:</h4>
                 <ul className="flex items-center">
-                  <li className="mr-2 hover:text-black">
+                  <li className="mr-4 hover:text-black">
                     <a href="#">
                       <FaFacebookF />
                     </a>
                   </li>
-                  <li className="mr-2 hover:text-black">
+                  <li className="mr-4 hover:text-black">
                     <a href="#">
                       <FaTwitter />
                     </a>
                   </li>
-                  <li className="mr-2 hover:text-black">
+                  <li className="mr-4 hover:text-black">
                     <a href="#">
                       <FaBehance />
                     </a>
                   </li>
-                  <li className="mr-2 hover:text-black">
+                  <li className="mr-4 hover:text-black">
                     <a href="#">
                       <FaInstagram />
                     </a>
                   </li>
-                  <li className="mr-2 hover:text-black">
+                  <li className="mr-4 hover:text-black">
                     <a href="#">
                       <FaPinterest />
                     </a>

@@ -43,7 +43,7 @@ const Blog = () => {
   return (
     <section id="blog" className="container my-32">
       <div className="text-center mb-12">
-        <h2 className="text-black text-4xl">Bài viết mới</h2>
+        <h2 className="text-black text-4xl">Bài viết nổi bật</h2>
         <div className="w-[130px] mx-auto my-3 flex justify-center items-center">
           <div className="w-[42px] h-[2px] bg-primary"></div>
           <div className="mx-4 animate-rotateAnimation">
