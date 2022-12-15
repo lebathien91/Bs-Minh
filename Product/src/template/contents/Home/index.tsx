@@ -6,7 +6,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { SwiperSlide } from "swiper/react";
-import SlideSwiper from "../../../components/SlideSwiper";
+import SlideSwiper from "@/components/SlideSwiper";
 import { heros } from "../../../../data/home";
 
 const Home = () => {

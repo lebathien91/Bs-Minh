@@ -29,32 +29,19 @@ module.exports = {
           "100%": { maxWidth: "100%" },
         },
         rotateAnimation: {
-          "0%": {
-            transform: "rotateX(-20deg) rotateY(0deg)",
-          },
+          "0%": { transform: "rotateX(-20deg) rotateY(0deg)" },
           "75%": { transform: "rotateX(-20deg) rotateY(360deg)" },
           "100%": { transform: "rotateX(-20deg) rotateY(360deg)" },
         },
         videoAnimaion: {
-          "0%": {
-            transform: "scale(1)",
-            opacity: "1",
-          },
-
-          "25%:": {
-            transform: "scale(1)",
-            opacity: "0.75",
-          },
-
-          "100%": {
-            transform: "scale(1.5)",
-            opacity: "0",
-          },
+          "0%": { transform: "scale(1)", opacity: "1.00" },
+          "50%:": { transform: "scale(1.25)", opacity: "0.75" },
+          "100%": { transform: "scale(1.5)", opacity: "0.00" },
         },
       },
       animation: {
         spark: "spark 1.25s linear infinite",
-        rotateAnimation: "rotateAnimation 6s linear infinite;",
+        rotateAnimation: "rotateAnimation 6s linear infinite",
         videoAnimaion: "videoAnimaion 2s linear infinite",
       },
     },

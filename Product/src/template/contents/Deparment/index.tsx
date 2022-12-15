@@ -1,4 +1,3 @@
-import { title } from "process";
 import React, { useState } from "react";
 import { departments } from "../../../../data/department";
 

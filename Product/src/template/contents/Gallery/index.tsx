@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import { SwiperSlide } from "swiper/react";
-import BeforeAfterSlider from "../../../components/BeforeAfterSlider";
-import SlideSwiper from "../../../components/SlideSwiper";
+import BeforeAfterSlider from "@/components/BeforeAfterSlider";
+import SlideSwiper from "@/components/SlideSwiper";
 
 import { images, listPatients, listData } from "../../../../data/galleries";
 
@@ -179,8 +179,8 @@ const Gallery = () => {
                       </g>
                     </svg>
                     <div className="absolute top-0 left-0 bottom-0 right-0 w-[72px] h-[71px] m-auto">
-                      <span className="absolute top-0 left-0 bottom-0 right-0 w-[72px] h-[71px] rounded-full shadow-[0_0_0_5px_rgba(999,999,999,1)] animate-videoAnimaion">
-                        <span className="absolute top-0 left-0 bottom-0 right-0 w-[72px] h-[71px] rounded-full shadow-[0_0_0_5px_rgba(999,999,999,1)] animate-videoAnimaion"></span>
+                      <span className="absolute top-0 left-0 bottom-0 right-0 w-[72px] h-[71px] rounded-full shadow-[0_0_0_5px_rgba(999,999,999,1)]">
+                        <span className="absolute top-0 left-0 bottom-0 right-0 w-[72px] h-[71px] rounded-full shadow-[0_0_0_5px_rgba(999,999,999,1)]"></span>
                       </span>
                     </div>
                   </a>

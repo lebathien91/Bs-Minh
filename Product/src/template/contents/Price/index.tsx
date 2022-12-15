@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaAngleDown, FaAngleUp, FaCheck, FaTimes } from "react-icons/fa";
 import { SwiperSlide } from "swiper/react";
-import SlideSwiper from "../../../components/SlideSwiper";
+import SlideSwiper from "@/components/SlideSwiper";
 
 import { prices as listPrices, faqs as listFaq } from "../../../../data/prices";
 

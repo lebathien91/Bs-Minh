@@ -7,7 +7,7 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 import { SwiperSlide } from "swiper/react";
-import SlideSwiper from "../../../components/SlideSwiper";
+import SlideSwiper from "@/components/SlideSwiper";
 
 import { doctors as listDoctors } from "../../../../data/doctors";
 
